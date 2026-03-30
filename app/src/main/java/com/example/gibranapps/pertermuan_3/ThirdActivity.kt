@@ -29,7 +29,7 @@ class ThirdActivity : AppCompatActivity() {
 
         binding.btnKirim.setOnClickListener {
             val nomor = binding.inputNoTujuan.text
-            Toast.makeText(this, "Pesan berhasil dikirim ke $nomor", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "pesan berhasil dikirim ke $nomor", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, ThirdResultActivity::class.java)
             startActivity(intent)
