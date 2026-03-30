@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Gibran Apps</string>
+    <string name="halaman">HALAMAN VERIFIKASI</string>
+    <string name="halaman_verifikasi">HALAMAN VERIFIKASI</string>
 </resources>
