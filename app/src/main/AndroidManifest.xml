@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GibranApps">
         <activity
+            android:name=".pertemuan_5.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_5.ImproveWebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_5.FifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_5.ImproveActivity"
+            android:exported="false" />
+        <activity
             android:name=".pertermuan_3.ThirdResultActivity"
             android:exported="false" />
         <activity
