@@ -17,11 +17,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kirim"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="558dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="140dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="401dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

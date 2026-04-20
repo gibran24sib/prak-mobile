@@ -31,6 +31,12 @@
             android:exported="false" />
         <activity
             android:name=".pertermuan_3.ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
